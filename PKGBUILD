@@ -1,8 +1,9 @@
 #  Maintainer: Alper Şal <alper@sal.web.tr>
+#  Contributor: Radim Vančo (FoxKyong) <radim.vanco@jifox.cz>
 
 _pkgname=nperf-gui
 pkgname=nperf-gui-appimage
-pkgver=2.15.9
+pkgver=2.15.11
 pkgrel=1
 pkgdesc="Nperf wide-area network speed test application."
 arch=('x86_64')
@@ -12,7 +13,7 @@ depends=('fuse')
 provides=('nperf-gui')
 _filename="nPerf-${pkgver}-${arch}.AppImage"
 source=("https://repo.nperf.com/linux/nperf/nPerf-${pkgver}-${arch}.AppImage")
-md5sums=('dfa4b6419f2fae2992595701d0735ff5')
+md5sums=('02fd39d3c1a1805ce7f67f0b50b0d7bc')
 options=(!strip)
 prepare() 
 {

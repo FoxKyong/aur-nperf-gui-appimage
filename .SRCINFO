@@ -1,11 +1,13 @@
 pkgbase = nperf-gui-appimage
 	pkgdesc = Nperf wide-area network speed test application.
-	pkgver = 2.15.9
+	pkgver = 2.15.11
 	pkgrel = 1
 	arch = x86_64
 	license = GPL
+	depends = fuse
 	provides = nperf-gui
 	options = !strip
-	source = https://repo.nperf.com/linux/nperf/nPerf-2.15.9-x86_64.AppImage
-	md5sums = dfa4b6419f2fae2992595701d0735ff5
-	pkgname = nperf-gui-appimage
+	source = https://repo.nperf.com/linux/nperf/nPerf-2.15.11-x86_64.AppImage
+	md5sums = 02fd39d3c1a1805ce7f67f0b50b0d7bc
+
+pkgname = nperf-gui-appimage
