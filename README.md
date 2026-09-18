@@ -19,8 +19,8 @@ the desktop entry for menu integration.
 ## Building & installing
 
 ```bash
-git clone https://github.com/FoxKyong/nperf-gui-appimage.git
-cd nperf-gui-appimage
+git clone https://github.com/FoxKyong/aur-nperf-gui-appimage.git
+cd aur-nperf-gui-appimage
 makepkg -si
 ```
 
